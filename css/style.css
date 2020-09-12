@@ -1,0 +1,42 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #F2F1EF;
+    word-wrap: break-word;
+}
+
+p.mainParagraph{
+    font-size: 20px;
+}
+
+a{
+    color: #22A7F0;
+    text-decoration: none;
+}
+
+ul{
+    color: #22A7F0;
+    font-size: 20px;
+}
+
+h2{
+    color: red;
+}
+
+label{
+    font-size: 20px;
+}
+
+input{
+    width: 99%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+button{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
