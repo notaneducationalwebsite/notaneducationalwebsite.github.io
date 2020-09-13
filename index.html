@@ -16,35 +16,69 @@
     </header>
     <main>
         <p class="mainParagraph">
-            Welcome visitor, this gateway will lead you to the finest search engine on The Onion Router (TOR). This gateway features the most notorious search engine on TOR which goes by the name "NOT EVIL".
+            Welcome visitor, this gateway will lead you to the finest services on The Onion Router (TOR). This gateway features the most leading and the most powerfull websites and services on TOR.
             <br><br>
-            I recommend you to access this gateway using TOR Browser for better functioning. Anyways you will be going to need TOR Browser if you manage to get past the 
-            <a href="#login">login</a>.
-            <br><br>
+            I recommend you to access this gateway using TOR Browser for better functioning because anyways you will be going to need TOR Browser for further browsing. You can download TOR for your respective platform from <a href="#downloads">here</a>
+            <hr>
+            <h2>First Things First, What Is TOR ?</h2>
+            <p>
+                Tor is free and open-source software for enabling anonymous communication. The name derived from the acronym for the original software project name "The Onion Router". Tor directs Internet traffic through a free, worldwide, volunteer overlay network consisting of more than seven thousand relays to conceal a user's location and usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity to the user: this includes "visits to Web sites, online posts, instant messages, and other communication forms". Tor's intended use is to protect the personal privacy of its users, as well as their freedom and ability to conduct confidential communication by keeping their Internet activities unmonitored.
+                <br><br>
+                Tor does not prevent an online service from determining that it is being accessed through Tor. Tor protects a user's privacy, but does not hide the fact that someone is using Tor. Some websites restrict allowances through Tor. For example, Wikipedia blocks attempts by Tor users to edit articles unless special permission is sought .....
+                <a href="https://en.wikipedia.org/wiki/Tor_(anonymity_network)">
+                    read more on Wikipedia&copy;
+                </a>
+            </p>
+            <hr>
             <h2 style="color: black;">Downloads For TOR Browser</h2>
             <p>
-                <ul>
-                    <li><a href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser_alpha&hl=en_IN">Android</a></li>
-                    <li><a href="https://www.torproject.org/dist/torbrowser/9.5.4/tor-browser-linux64-9.5.4_en-US.tar.xz">Linux</a></li>
-                    <li><a href="https://www.torproject.org/dist/torbrowser/9.5.4/TorBrowser-9.5.4-osx64_en-US.dmg">MAC</a></li>
-                    <li><a href="https://www.torproject.org/dist/torbrowser/9.5.4/torbrowser-install-win64-9.5.4_en-US.exe">Android</a></li>
-                </ul>
+                <table id="downloads">
+                    <tbody>
+                        <tr>
+                            <td>Android</td>
+                            <td>
+                                <a href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser_alpha&hl=en_IN">Download</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Linux</td>
+                            <td>
+                                <a href="https://www.torproject.org/dist/torbrowser/9.5.4/tor-browser-linux64-9.5.4_en-US.tar.xz">Download</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>MAC</td>
+                            <td>
+                                <a href="https://www.torproject.org/dist/torbrowser/9.5.4/TorBrowser-9.5.4-osx64_en-US.dmg">Download</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Windows</td>
+                            <td>
+                                <a href="https://www.torproject.org/dist/torbrowser/9.5.4/torbrowser-install-win64-9.5.4_en-US.exe">Download</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </p>
-            <br>
-            <span class="caution">
-                <h2>
-                    !! CAUTION !! - 
-                    PLEASE CONTINUE AT YOUR OWN RISK
-                </h2>
-            </span>
+            <hr>
         </p>
-        <h1>Member Login</h1>
-        <form id="login">
-            <label>Unique Access Key Provided By Admin : </label><br>
-            <input type="text" name="acc-name" id="key">
+        <h1>Select Services</h1>
+        <h3>*please proceed only and only if you know how to use TOR*</h3>
+        <form id="services">
+            <select name="service-list" id="serviceList">
+                <option value="null">Select One</option>
+                <option value="notevil">Not Evil</option>
+                <option value="gdark">G Dark</option>
+                <option value="hiddenwiki">Hidden Wiki</option>
+                <option value="hiddenanswers">Hidden Answers</option>
+                <option value="torrents">Onion Lightning Fast Torrents</option>
+                <option value="bonus">Bonus :D</option>
+            </select>
             <br><br>
-            <button type="submit" onclick="authenticateKey()">Submit</button>
+            <button type="submit" onclick="verifyService()">Submit</button>
         </form>
+        <hr>
     </main>
     <footer></footer>
     <script src="js/main.js"></script>
